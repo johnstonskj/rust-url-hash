@@ -1,0 +1,13 @@
+[package]
+name = "url-hash"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ring = { version = "0.17.7", features = ["std"] }
+url = "2.5.0"
+
+[dev-dependencies]
+pretty_assertions = "1.4.0"
